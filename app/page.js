@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import appstore from '../assets/app-store.png'
 import playstore from '../assets/play.png'
