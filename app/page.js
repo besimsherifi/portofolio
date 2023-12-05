@@ -6,15 +6,22 @@ import Link from 'next/link'
 
 
 export default function Home() {
+
+  const emailAddress = 'sherifibesim@gmail.com';
+  const subject = '';
+
+  const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
+
+
   return (
     <>
       <div className="flex items-center justify-center h-screen font-pt-sans ">
         <div>
           <div className="text-center my-4">
             <h1 class="text-4xl font-medium ">Besim Sherifi</h1>
-            <h4 className='font-medium text-[lightslategray]'>full stack & mobile developer </h4>
+            <h4 className='font-light text-[lightslategray]'>full stack & mobile developer </h4>
           </div>
-          <p className="max-w-lg font-light">Hello, I'm full-stack and mobile developer with experience in different technologies like NodeJs, Angular, React and Next and in the mobile development landscape, I am proficient in crafting native and cross-platform applications using Swift and Flutter (Dart)</p>
+          <p className="max-w-lg font-light mx-5">Hello, I'm full-stack and mobile developer with experience in different technologies like NodeJs, Angular, React and Next and in the mobile development landscape, I am proficient in crafting native and cross-platform applications using Swift and Flutter (Dart)</p>
           <p className="text-center my-10 font-light">selected work:</p>
           <div className="text-center font-medium">
             {/* <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>dejabijoux</p> */}
@@ -54,6 +61,11 @@ export default function Home() {
             <Link href='https://neo.swiss/home' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>neo swiss</p></Link>
             <Link href='https://www.dj-raumausstatter.de/' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>d.j raumausstatter</p></Link>
             <Link href='https://sa-autotoss.ch/' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>sa autotoss</p></Link>
+          </div>
+
+          <div className='flex justify-center text-[lightslategray] mt-10'>
+            <Link href={mailtoLink}><p className='mr-4 font-light cursor-pointer'>email</p></Link>
+            <Link href='https://www.linkedin.com/in/besim-sherifi-019328193/' target="_blank"><p className='font-light cursor-pointer'>linkedin</p></Link>
           </div>
 
         </div>
