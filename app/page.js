@@ -64,8 +64,16 @@ export default function Home() {
           </div>
 
           <div className='flex justify-center text-[lightslategray] mt-10'>
-            <Link href={mailtoLink}><p className='mr-4 font-light cursor-pointer'>email</p></Link>
-            <Link href='https://www.linkedin.com/in/besim-sherifi-019328193/' target="_blank"><p className='font-light cursor-pointer'>linkedin</p></Link>
+            <div className='mr-4'>
+              <Link href={mailtoLink}>
+                <p className=' font-light cursor-pointer'>email</p>
+              </Link>
+            </div>
+            <div>
+              <Link href='https://www.linkedin.com/in/besim-sherifi-019328193/' target="_blank">
+                <p className='font-light cursor-pointer'>linkedin</p>
+              </Link>
+            </div>
           </div>
 
         </div>
