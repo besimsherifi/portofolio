@@ -59,7 +59,20 @@ export default function Home() {
             </div>
             <Link href='https://www.besi-storen.ch/' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>besi storen</p></Link>
             <Link href='https://neo.swiss/home' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>neo swiss</p></Link>
-            <Link href='https://www.dj-raumausstatter.de/' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>d.j raumausstatter</p></Link>
+            <div className='flex mx-auto text-center justify-center mb-3'>
+              <Link href='https://www.dj-raumausstatter.de/' target='_blank'>
+                <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>d.j raumausstatter</p>
+              </Link>
+              <Link href='https://apps.apple.com/mk/app/dj-raumausstatter/id6475651787' target='_blank'>
+                <Image
+                  className='cursor-pointer  ml-2'
+                  src={appstore}
+                  width={20}
+                  height={20}
+                  alt="appstore"
+                />
+              </Link>
+            </div>
             <Link href='https://sa-autotoss.ch/' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>sa autotoss</p></Link>
           </div>
 
@@ -84,3 +97,5 @@ export default function Home() {
     </>
   )
 }
+
+
