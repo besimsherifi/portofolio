@@ -26,7 +26,7 @@ export default function Home() {
           <div className="text-center font-medium">
             {/* <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>dejabijoux</p> */}
             <div className="flex mx-auto text-center justify-center items-center mb-3" >
-              <Link href='https://deja-store-besimsherifi.vercel.app/' target='_blank'><p className='max-w-fit  text-sm font-medium transition-colors underline-animation cursor-pointer'>dejabijoux</p></Link>
+              <Link href='https://dejabijoux.ch/' target='_blank'><p className='max-w-fit  text-sm font-medium transition-colors underline-animation cursor-pointer'>dejabijoux</p></Link>
               <Image
                 className='ml-2 cursor-pointer'
                 src={appstore}
