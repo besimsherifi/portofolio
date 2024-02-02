@@ -27,13 +27,15 @@ export default function Home() {
             {/* <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>dejabijoux</p> */}
             <div className="flex mx-auto text-center justify-center items-center mb-3" >
               <Link href='https://dejabijoux.ch/' target='_blank'><p className='max-w-fit  text-sm font-medium transition-colors underline-animation cursor-pointer'>dejabijoux</p></Link>
-              <Image
-                className='ml-2 cursor-pointer'
-                src={appstore}
-                width={20}
-                height={20}
-                alt="appstore"
-              />
+              <Link href='https://apps.apple.com/us/app/dejabijoux/id6477193818' target='_blank'>
+                <Image
+                  className='ml-2 cursor-pointer'
+                  src={appstore}
+                  width={20}
+                  height={20}
+                  alt="appstore"
+                />
+              </Link>
             </div>
             {/* <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>kika storen</p> */}
             <div className="flex mx-auto text-center justify-center items-center mb-2" >
