@@ -38,6 +38,24 @@ export default function Home() {
               </Link>
             </div>
             {/* <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>kika storen</p> */}
+
+
+            <div className='flex mx-auto text-center justify-center mb-3'>
+              <Link href='https://www.dj-raumausstatter.de/' target='_blank'>
+                <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer '>d.j raumausstatter</p>
+              </Link>
+              <Link href='https://apps.apple.com/mk/app/dj-raumausstatter/id6475651787' target='_blank'>
+                <Image
+                  className='cursor-pointer  ml-2'
+                  src={appstore}
+                  width={20}
+                  height={20}
+                  alt="appstore"
+                />
+              </Link>
+            </div>
+
+
             <div className="flex mx-auto text-center justify-center items-center mb-2" >
               <Link href='https://kikastoren.ch/' target='_blank'><p className='max-w-fit  text-sm font-medium transition-colors underline-animation cursor-pointer'>kika storen</p></Link>
               <Link href='https://apps.apple.com/app/kika-storen/id6448458335?platform=iphone' target='_blank'>
@@ -61,20 +79,6 @@ export default function Home() {
             </div>
 
 
-            <div className='flex mx-auto text-center justify-center mb-3'>
-              <Link href='https://www.dj-raumausstatter.de/' target='_blank'>
-                <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer '>d.j raumausstatter</p>
-              </Link>
-              <Link href='https://apps.apple.com/mk/app/dj-raumausstatter/id6475651787' target='_blank'>
-                <Image
-                  className='cursor-pointer  ml-2'
-                  src={appstore}
-                  width={20}
-                  height={20}
-                  alt="appstore"
-                />
-              </Link>
-            </div>
 
 
             <div className='flex mx-auto text-center justify-center mb-3'>
@@ -98,7 +102,7 @@ export default function Home() {
 
 
 
-            <Link href='https://sa-autotoss.ch/' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>sa autotoss</p></Link>
+            {/* <Link href='https://sa-autotoss.ch/' target='_blank'><p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>sa autotoss</p></Link> */}
           </div>
 
           <div className='flex justify-center text-[lightslategray] mt-10'>
