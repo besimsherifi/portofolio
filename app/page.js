@@ -21,7 +21,7 @@ export default function Home() {
             <h1 class="text-4xl font-medium ">Besim Sherifi</h1>
             <h4 className='font-light text-[lightslategray]'>full stack & mobile developer </h4>
           </div>
-          <p className="max-w-lg font-light mx-5">Hello, I'm full-stack and mobile developer with experience in different technologies like NodeJs, Angular, React and Next and in the mobile development landscape, I am proficient in crafting native and cross-platform applications using Swift and Flutter (Dart)</p>
+          <p className="max-w-lg font-light mx-5">Hello, I'm full-stack and mobile developer with experience in different technologies like NodeJs, Angular, React, Svelte and Next and in the mobile development landscape, I am proficient in crafting native and cross-platform applications using Swift and Flutter (Dart)</p>
           <p className="text-center my-10 font-light">selected work:</p>
           <div className="text-center font-medium">
             {/* <p className='max-w-fit mx-auto text-center text-sm font-medium transition-colors underline-animation cursor-pointer mb-2'>dejabijoux</p> */}
