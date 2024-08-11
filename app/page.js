@@ -116,7 +116,9 @@ export default function Home() {
                 <p className='font-light cursor-pointer'>linkedin</p>
               </Link>
             </div>
+            {/* <br /> */}
           </div>
+          <p className='text-center text-[12px] mt-20'>ja kem nis nOpel Cors tash na ki nApple Stores</p>
 
         </div>
 
