@@ -118,7 +118,7 @@ export default function Home() {
             </div>
             {/* <br /> */}
           </div>
-          <p className='text-center text-[12px] mt-20'>ja kem nis nOpel Cors tash na ki nApple Stores</p>
+          {/* <p className='text-center text-[12px] mt-20'>ja kem nis nOpel Cors tash na ki nApple Stores</p> */}
 
         </div>
 
