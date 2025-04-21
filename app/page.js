@@ -257,13 +257,13 @@ export default function Home() {
       image: infomentor,
       title: 'Infomentor',
       description: 'InfoMentor ist ein umfassendes Schülermanagement-System, das Schulen, Lehrer:innen und Eltern bei der Organisation und Nachverfolgung des Lernfortschritts unterstützt. Die App ermöglicht eine einfache Verwaltung von Schülerdaten, Leistungsbewertungen, Stundenplänen und Mitteilungen. Mit einem Fokus auf Transparenz und Benutzerfreundlichkeit trägt InfoMentor zur besseren Kommunikation zwischen Lehrkräften, Eltern und Schüler:innen bei – alles in einer zentralen Plattform.',
-      link: '#infomentor'
+      link: 'https://apps.apple.com/us/app/infomentor-hub/id1388965431'
     },
     {
       image: sdw,
       title: 'Stockholm Design Week',
       description: 'Stockholm Design Week ist eine der führenden Plattformen für skandinavisches Design und findet jährlich in der schwedischen Hauptstadt statt. Die Veranstaltung bringt etablierte Marken, aufstrebende Talente und Designbegeisterte zusammen, um Innovationen, Nachhaltigkeit und Handwerkskunst zu feiern. Mit Ausstellungen, Workshops und Networking-Events bietet die Woche einen umfassenden Einblick in die aktuelle Designszene Skandinaviens.',
-      link: '#sdw'
+      link: 'https://apps.apple.com/tr/app/stockholm-design-week/id590228998'
     }
   ];
 
