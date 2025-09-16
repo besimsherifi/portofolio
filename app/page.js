@@ -209,6 +209,7 @@ import norges from '../assets/norges2.png'
 import waterfront from '../assets/waterfront.png'
 import infomentor from '../assets/info2.png'
 import sdw from '../assets/sdw.png'
+import rema from '../assets/rema.png'
 
 export default function Home() {
   const emailAddress = 'sherifibesim@gmail.com';
@@ -241,6 +242,12 @@ export default function Home() {
       title: 'DJ Raumausstatter',
       description: 'DJ Raumausstatter is a specialized app for a company in the painting and interior construction sector. It assists employees with accurately capturing wall measurements on-site, automates quote generation, and enables easy invoice management. With integrated customer management, photo documentation, and a clear project overview, the app enhances efficiency and professionalism in daily operations.',
       link: 'https://apps.apple.com/us/app/dj-raumausstatter/id6475651787'
+    },
+    {
+      image: rema,
+      title: 'REMA 1000',
+      description: 'REMA 1000 is a modern grocery shopping app from one of Norway’s largest supermarket chains. It offers weekly discounts on fresh fruit and vegetables, personalized deals, and convenient tools like shared shopping lists and purchase overviews. With features such as “Scan & Pay” in selected stores and digital coupon activation, the app makes everyday shopping simpler, faster, and more rewarding.',
+      link: 'https://apps.apple.com/no/app/rema-1000/id1184277401'
     },
     {
       image: waterfront,
@@ -307,7 +314,7 @@ export default function Home() {
           />
 
           {idx === 3 && (
-            <p className="text-center max-w-xl mx-auto text-2xl font-semibold my-10 mt-10">
+            <p className="text-center max-w-xl mx-auto text-2xl font-semibold my-28">
               Scandinavian Partners
             </p>
           )}
