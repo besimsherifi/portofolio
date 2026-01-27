@@ -291,7 +291,7 @@ export default function Home() {
       <div className="w-full md:w-1/2">
         <h2 className="text-2xl font-semibold text-white">{title}</h2>
         <p className="mt-4 text-lg">{description}</p>
-        <Link href={link} className="text-white font-medium inline-block mt-4">
+        <Link href={link} className="text-white font-medium inline-block mt-4" target="_blank">
           Read More →
         </Link>
       </div>
@@ -306,7 +306,7 @@ export default function Home() {
       </div>
 
       <p className="max-w-xl font-light text-center">
-        Hello, I’m a Full-Stack and Mobile Developer with experience in technologies like Node.js, Angular, React, and Next.js. In mobile development, I specialize in creating native and cross-platform apps using Swift and Flutter (Dart).
+        Hello, I’m a Full-Stack and Mobile Developer with experience in technologies like Node.js, Angular, React, and Next.js. In mobile development, I specialize in creating native and cross-platform apps using Swift React Native and Flutter(Dart).
       </p>
 
       <p className="text-center my-10 font-light">My work:</p>
