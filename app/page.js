@@ -210,6 +210,7 @@ import waterfront from '../assets/waterfront.png'
 import infomentor from '../assets/info2.png'
 import sdw from '../assets/sdw.png'
 import rema from '../assets/rema.png'
+import apotea from '../assets/apotea.png'
 
 export default function Home() {
   const emailAddress = 'sherifibesim@gmail.com';
@@ -242,6 +243,12 @@ export default function Home() {
       title: 'DJ Raumausstatter',
       description: 'DJ Raumausstatter is a specialized app for a company in the painting and interior construction sector. It assists employees with accurately capturing wall measurements on-site, automates quote generation, and enables easy invoice management. With integrated customer management, photo documentation, and a clear project overview, the app enhances efficiency and professionalism in daily operations.',
       link: 'https://apps.apple.com/us/app/dj-raumausstatter/id6475651787'
+    },
+    {
+      image: apotea,
+      title: 'Apotea',
+      description: 'Apotea is Sweden’s largest online pharmacy, serving millions of customers nationwide. The platform focuses on performance, scalability, and seamless user experience across mobile and web. The collaboration involved contributing to mobile-first solutions with a strong emphasis on reliability, accessibility, and modern e-commerce standards in the Scandinavian market.',
+      link: 'https://apps.apple.com/se/app/apotea-apotek-recept-online/id6504614705'
     },
     {
       image: rema,
