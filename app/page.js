@@ -306,7 +306,7 @@ export default function Home() {
       </div>
 
       <p className="max-w-xl font-light text-center">
-        Hello, I’m a Full-Stack and Mobile Developer with experience in technologies like Node.js, Angular, React, and Next.js. In mobile development, I specialize in creating native and cross-platform apps using Swift React Native and Flutter(Dart).
+        Hello, I’m a Full-Stack and Mobile Developer with experience in technologies like Node.js, Angular, React, and Next.js. In mobile development, I specialize in creating native and cross-platform apps using Swift, React Native and Flutter(Dart).
       </p>
 
       <p className="text-center my-10 font-light">My work:</p>
