@@ -23,6 +23,14 @@ export default function Home() {
 
   const projects = [
     {
+      image: kikastoren,
+      title: 'Kika Storen',
+      description: 'Kika Storen is a custom-built app for a company specializing in the installation and maintenance of sunshades. The app supports the team in managing customer inquiries, scheduling, quote handling, and documenting on-site operations. It simplifies internal workflows and improves communication between the office and field service — all through an intuitive mobile interface.',
+      link: 'https://apps.apple.com/us/app/kika-storen/id6448458335',
+      appleLink: 'https://apps.apple.com/us/app/kika-storen/id6448458335',
+      androidLink: 'https://play.google.com/store/apps/details?id=com.kikastoren.kikastoren'
+    },
+    {
       image: ferati,
       title: 'Ferati Transporte',
       description: 'A comprehensive transport and logistics app developed specifically for a transportation company in Switzerland. It enables real-time tracking of deliveries, management of drivers, vehicles, and service intervals, as well as handling time-sensitive orders with automatic notifications. The app is divided into two parts – an admin interface for centralized control and a mobile application for employees.',
@@ -37,14 +45,6 @@ export default function Home() {
       appleLink: 'https://apps.apple.com/us/app/dejabijoux/id6477193818',
       androidLink: ''
 
-    },
-    {
-      image: kikastoren,
-      title: 'Kika Storen',
-      description: 'Kika Storen is a custom-built app for a company specializing in the installation and maintenance of sunshades. The app supports the team in managing customer inquiries, scheduling, quote handling, and documenting on-site operations. It simplifies internal workflows and improves communication between the office and field service — all through an intuitive mobile interface.',
-      link: 'https://apps.apple.com/us/app/kika-storen/id6448458335',
-      appleLink: 'https://apps.apple.com/us/app/kika-storen/id6448458335',
-      androidLink: 'https://play.google.com/store/apps/details?id=com.kikastoren.kikastoren'
     },
     {
       image: djraum,
