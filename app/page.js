@@ -23,19 +23,19 @@ export default function Home() {
 
   const projects = [
     {
+      image: ferati,
+      title: 'Ferati Transporte',
+      description: 'A comprehensive transport and logistics app developed specifically for a transportation company in Switzerland. It enables real-time tracking of deliveries, management of drivers, vehicles, and service intervals, as well as handling time-sensitive orders with automatic notifications. The app is divided into two parts – an admin interface for centralized control and a mobile application for employees.',
+      appleLink: 'https://apps.apple.com/us/app/ferati-transporte/id6743625017',
+      androidLink: 'https://play.google.com/store/apps/details?id=com.ferati-transporte.app',
+    },
+    {
       image: kikastoren,
       title: 'Kika Storen',
       description: 'Kika Storen is a custom-built app for a company specializing in the installation and maintenance of sunshades. The app supports the team in managing customer inquiries, scheduling, quote handling, and documenting on-site operations. It simplifies internal workflows and improves communication between the office and field service — all through an intuitive mobile interface.',
       link: 'https://apps.apple.com/us/app/kika-storen/id6448458335',
       appleLink: 'https://apps.apple.com/us/app/kika-storen/id6448458335',
       androidLink: 'https://play.google.com/store/apps/details?id=com.kikastoren.kikastoren'
-    },
-    {
-      image: ferati,
-      title: 'Ferati Transporte',
-      description: 'A comprehensive transport and logistics app developed specifically for a transportation company in Switzerland. It enables real-time tracking of deliveries, management of drivers, vehicles, and service intervals, as well as handling time-sensitive orders with automatic notifications. The app is divided into two parts – an admin interface for centralized control and a mobile application for employees.',
-      appleLink: 'https://apps.apple.com/us/app/ferati-transporte/id6743625017',
-      androidLink: 'https://play.google.com/store/apps/details?id=com.ferati-transporte.app',
     },
     {
       image: dejabijoux,
@@ -143,7 +143,7 @@ export default function Home() {
 
       <p className="max-w-xl font-light text-center">
         {/* Hello, I’m a Full-Stack and Mobile Developer with experience in technologies like Node.js, Angular, React, and Next.js. In mobile development, I specialize in creating native and cross-platform apps using Swift, React Native and Flutter(Dart). */}
-        Hello, I’m a Mobile Developer with experience building native and cross-platform applications using Flutter (Dart), Swift, and React Native. I focus on creating responsive, high-quality mobile experiences and scalable app architectures, while also having a background in web technologies such as Node.js, Angular, React, and Next.js.
+        Hello, I’m a Mobile Developer with experience building native and cross-platform applications using Flutter (Dart) and Swift. I focus on creating responsive, high-quality mobile experiences and scalable app architectures, while also having a background in web technologies such as Golang, Node.js, React, and Next.js.
       </p>
 
       <p className="text-center my-10 font-light">My work:</p>
